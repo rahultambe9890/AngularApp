@@ -1,0 +1,12 @@
+.one{
+    margin-left: 20px;
+    color: rgb(0, 100, 35);
+    font-weight: bold;
+}
+.input{
+    border-color: rgb(5, 63, 79);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 100, 35);
+    font-weight: bolder;
+}

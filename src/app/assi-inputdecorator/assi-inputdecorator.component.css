@@ -1,0 +1,8 @@
+.head{
+    display: flex;
+    margin-left: 460px;
+}
+.date{
+    margin-left: 50px;
+    color:rgb(8, 94, 132) ;
+}

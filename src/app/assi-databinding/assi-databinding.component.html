@@ -1,0 +1,8 @@
+<div style="text-align: center;">
+   <div class="head"> <h4>assigment-databinding works!</h4>
+    <h6 class="date">Assignment Date: 14 July</h6></div>
+    <span class="span">Username:</span>
+   <input class="input" type="text"[(ngModel)]="Username">
+   <p class="Username">{{Username}}</p>
+   <button type="button" class="btn btn-dark"[disabled]="Username === ''" (click)="Username = ''">Reset Username</button>
+</div>

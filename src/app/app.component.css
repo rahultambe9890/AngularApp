@@ -1,0 +1,23 @@
+.bgc {
+    display: contents;
+
+}
+
+.name {
+    color: rgb(243, 79, 9);
+    margin-left: 20px;
+
+}
+.img {
+    margin-left: 50px;
+}
+.text {
+    display: flex;
+    margin-left: 900px;
+    margin-top: 25px;
+}
+hr{
+    background-color: rgb(245, 82, 12);
+    height: 2px;
+ 
+}

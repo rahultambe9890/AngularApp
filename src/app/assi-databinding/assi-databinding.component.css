@@ -1,0 +1,26 @@
+.input{
+    border-color: rgb(5, 63, 79);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(8, 94, 132);
+    font-weight: bolder;
+}
+.Username{
+    color: rgb(8, 94, 132);
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.span{
+    margin-right: 20px;
+    font-weight: bolder;
+    color: rgb(5, 105, 105);
+    font-size: larger;
+}
+.head{
+    display: flex;
+    margin-left: 460px;
+}
+.date{
+    margin-left: 50px;
+    color:rgb(8, 94, 132) ;
+}

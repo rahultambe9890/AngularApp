@@ -1,0 +1,9 @@
+.card{
+    align-items: center;
+    border-color: brown;
+    display: inline-block;
+}
+hr{
+    height: 3px;
+    background-color: rgb(0, 97, 139);
+}
