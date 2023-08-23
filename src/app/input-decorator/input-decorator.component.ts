@@ -12,6 +12,10 @@ export class InputDecoratorComponent implements OnInit {
   Courses :string[] = [
     'HTML5', 'CSS3' , 'BootStrap' , 'Angular'
   ]
+  Movies :any [] = [
+    {title : 'kgf', hero: 'Rocky'},
+    {title : 'krish', hero : 'Hritik Roshan'}
+  ]
   posts=[
     {
       title:'Pam Tree',
@@ -36,6 +40,8 @@ export class InputDecoratorComponent implements OnInit {
   ngOnInit() {
     console.log(this.child);
     console.log(this.Courses);
+    console.log(this.Movies);
+    
     
     
   }

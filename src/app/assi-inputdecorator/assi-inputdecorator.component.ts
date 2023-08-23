@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class AssiInputdecoratorComponent implements OnInit {
 @Input () Courses : string[];
+@Input () title :any;
+@Input () hero :any ;
 //parent component is input decoretor component
 
   constructor() { }

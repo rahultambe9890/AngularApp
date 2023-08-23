@@ -1,14 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1 class="bgc">
-    Welcome to {{ title }}!<span class="name">{{name}}</span> 
+    Welcome to {{ title }}!<span class="name">{{name}}</span>
   </h1>
-  </div>
-  <div>
-  <app-databinding></app-databinding><hr>
-  <app-twowaydatabinding></app-twowaydatabinding><hr>
-  <app-input-decorator [child]="parentToChild"></app-input-decorator><hr>
+</div>
+<div>
+  <app-databinding></app-databinding>
+  <hr>
+  <app-twowaydatabinding></app-twowaydatabinding>
+  <hr>
+  <app-input-decorator [child]="parentToChild"></app-input-decorator>
+  <hr>
   <app-output-decorator (foodEvent)="onParent($event)"></app-output-decorator>
-  <h6 style="text-align: center;">Full Name: {{ fullName }}</h6>
-  </div>
+  <h6 style="text-align: center;">Full Name: {{ fullName }}</h6> <hr>
+  <app-ngfor></app-ngfor>
+</div>
 <router-outlet></router-outlet>

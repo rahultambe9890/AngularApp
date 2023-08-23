@@ -11,6 +11,8 @@ import { InputDecoratorComponent } from './input-decorator/input-decorator.compo
 import { OutputDecoratorComponent } from './output-decorator/output-decorator.component';
 import { AssiDatabindingComponent } from './assi-databinding/assi-databinding.component';
 import { AssiInputdecoratorComponent } from './assi-inputdecorator/assi-inputdecorator.component';
+import { NgforComponent } from './ngfor/ngfor.component';
+
 
 
 
@@ -23,7 +25,9 @@ import { AssiInputdecoratorComponent } from './assi-inputdecorator/assi-inputdec
     InputDecoratorComponent,
     OutputDecoratorComponent,
     AssiDatabindingComponent,
-    AssiInputdecoratorComponent
+    AssiInputdecoratorComponent,
+    NgforComponent,
+   
   ],
   imports: [
     BrowserModule,
